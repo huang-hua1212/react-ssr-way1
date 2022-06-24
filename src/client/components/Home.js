@@ -22,7 +22,7 @@ export class  Home extends Component {
       <div>Homepage</div>
       <Link to="/users">To user page</Link>
       {/* <button onClick={() => console.log("click me")}>click me</button> */}
-      <button>click me</button>
+      <button onClick = {this.clickMe}>click me</button>
     </div>
   );
   }
