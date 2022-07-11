@@ -1,5 +1,5 @@
-
-Compile
+# Start up
+Compile & Open Server
 ```
 npm run dev
 ```
