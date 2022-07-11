@@ -1,6 +1,7 @@
 import { FETCH_USERS } from "./users.actions";
 
 const reducer = (state = { users: [] }, action) => {
+  console.log(action);
   switch (action.type) {
     case FETCH_USERS:
       return {
